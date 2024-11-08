@@ -65,7 +65,7 @@ export const networks: NetworkShortName[] = [
   { chainId: 282n, shortName: 'zkTCRO' },
   { chainId: 288n, shortName: 'boba' },
   { chainId: 291n, shortName: 'orderly' },
-  { chainId: 300n, shortName: 'ogn' },
+  { chainId: 300n, shortName: 'zksync-sepolia' },
   { chainId: 314n, shortName: 'filecoin' },
   { chainId: 321n, shortName: 'kcs' },
   { chainId: 322n, shortName: 'kcst' },
