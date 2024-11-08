@@ -48,7 +48,7 @@ export const PREDETERMINED_SALT_NONCE =
   '0xb1073742015cbcf5a3a4d9d1ae33ecf619439710b89475f92e2abd2117e90f90'
 
 const ZKSYNC_MAINNET = 324n
-const ZKSYNC_TESTNET = 280n
+const ZKSYNC_TESTNET = 300n
 // For bundle size efficiency we store SafeProxy.sol/GnosisSafeProxy.sol zksync bytecode hash in hex.
 // To get the values below we need to:
 // 1. Compile Safe smart contracts for zksync
@@ -60,8 +60,8 @@ const ZKSYNC_TESTNET = 280n
 const ZKSYNC_SAFE_PROXY_DEPLOYED_BYTECODE: {
   [version: string]: { deployedBytecodeHash: Hash }
 } = {
-  '1.3.0': {
-    deployedBytecodeHash: '0x0100004124426fb9ebb25e27d670c068e52f9ba631bd383279a188be47e3f86d'
+  '1.4.1': {
+    deployedBytecodeHash: '0x0100003b6cfa15bd7d1cae1c9c022074524d7785d34859ad0576d8fab4305d4f'
   }
 }
 
